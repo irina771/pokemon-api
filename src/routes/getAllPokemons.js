@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const getPokemonsBDD = require("../services/getPokemonsBDD");
 const getPokemons = require("../services/getPokemons");
-const joinResponsePokemons = require("../helpers/joinResponsePokemons");
+const joinResponsePokemons = require("../helpers/joinresponsePokemons");
 const router = Router();
 
 const filterPokemons = (pokemons, name) => {
